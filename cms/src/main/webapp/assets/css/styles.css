@@ -1,0 +1,142 @@
+body {
+    background-color: #2D3A4A;
+    color: #DFE4E6;
+}
+
+.container a {
+    color: #DFE4E6;
+}
+
+.pagination a {
+    color: #DFE4E6;
+}
+
+.article-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article-text {
+    margin-top: 10px;
+}
+
+.article-actions {
+    margin-top: 20px;
+}
+
+.delete-button,
+.edit-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.edit-button {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.container {
+    margin: 50px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.col {
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 30%;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+}
+
+.article-form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-error {
+    color: red;
+}
+
+.edit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.error-message {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
